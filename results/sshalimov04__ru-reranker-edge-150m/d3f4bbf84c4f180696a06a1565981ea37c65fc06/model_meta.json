@@ -27,16 +27,16 @@
   "use_instructions": false,
   "training_datasets": [
     "MIRACLRetrieval",
-    "MIRACLReranking",
-    "MMarcoRetrieval"
+    "MMarcoRetrieval",
+    "MIRACLReranking"
   ],
-  "adapted_from": null,
+  "adapted_from": "deepvk/RuModernBERT-base",
   "superseded_by": null,
   "modalities": [
     "text"
   ],
   "model_type": [
-    "dense"
+    "cross-encoder"
   ],
   "citation": null,
   "contacts": null,
@@ -44,5 +44,5 @@
   "output_dtypes": null,
   "extra_requirements_groups": null,
   "loader": "CrossEncoderWrapper",
-  "is_cross_encoder": false
+  "is_cross_encoder": true
 }
