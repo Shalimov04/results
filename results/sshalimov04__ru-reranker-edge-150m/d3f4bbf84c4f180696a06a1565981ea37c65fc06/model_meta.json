@@ -1,0 +1,52 @@
+{
+  "loader_kwargs": {},
+  "name": "sshalimov04/ru-reranker-edge-150m",
+  "revision": "d3f4bbf84c4f180696a06a1565981ea37c65fc06",
+  "release_date": "2026-09-06",
+  "languages": [
+    "rus-Cyrl"
+  ],
+  "n_parameters": 149000000,
+  "n_active_parameters_override": null,
+  "n_embedding_parameters": 38682624,
+  "memory_usage_mb": 570,
+  "max_tokens": 8192,
+  "embed_dim": null,
+  "license": "apache-2.0",
+  "open_weights": true,
+  "public_training_code": null,
+  "public_training_data": "https://huggingface.co/datasets/sshalimov04/ru-reranker-teacher-scores",
+  "framework": [
+    "PyTorch",
+    "Sentence Transformers"
+  ],
+  "reference": null,
+  "similarity_fn_name": null,
+  "use_instructions": false,
+  "training_datasets": {
+    "MIRACLRetrieval": [
+      "train"
+    ],
+    "MIRACLReranking": [
+      "train"
+    ],
+    "MMarcoRetrieval": [
+      "train"
+    ]
+  },
+  "adapted_from": null,
+  "superseded_by": null,
+  "modalities": [
+    "text"
+  ],
+  "model_type": [
+    "cross-encoder"
+  ],
+  "citation": null,
+  "contacts": null,
+  "experiment_kwargs": null,
+  "output_dtypes": null,
+  "extra_requirements_groups": null,
+  "loader": "CrossEncoderWrapper",
+  "is_cross_encoder": true
+}
